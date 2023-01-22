@@ -1,0 +1,6 @@
+function sphere(radius) {
+  const pi = Math.PI;
+  const area = 4 * pi * Math.pow(radius, 2);
+  const volume = (4 / 3) * pi * Math.pow(radius, 3);
+  return { area, volume };
+}
